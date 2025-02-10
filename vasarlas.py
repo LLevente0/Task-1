@@ -1,5 +1,5 @@
 ar = int(input("Kérem a termék árát forintban: "))
-arfolyam = int(input("Kérem az euro árfolyamát: "))
+arfolyam = float(input("Kérem az euro árfolyamát: "))
 euro = int(input("Mennyi euróval rendelkezel: "))
 
 
