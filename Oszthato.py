@@ -16,6 +16,8 @@ def oszthatosag(szam):
         return False
 
 print(oszthatosag(7))
+print(oszthatosag(14))
+print(oszthatosag(28))
 
 def atlag(szamok):
     # osszeg = 0
@@ -26,5 +28,10 @@ def atlag(szamok):
     print(osszeg)
     hany_darab_szam = len(szamok)
     print(hany_darab_szam)
+
+    atlag = osszeg + hany_darab_szam
+    print(atlag)
+
+
 
 atlag(haromjegyu)
