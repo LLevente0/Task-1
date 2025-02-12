@@ -7,9 +7,11 @@ A 7-tel osztható és 3-mal nem osztható 3 jegyű számok átlaga: 551.27058823
 
 
 
-def oszthatosag():
-    
+def oszthatosag(szam):
+    if szam % 7 == 0 and szam % 3 != 0:
+        return True
+    else:
+        return False
 
 
-
-oszthatosag(5)
+print(oszthatosag(7))
