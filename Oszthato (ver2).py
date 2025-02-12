@@ -19,4 +19,4 @@ def oszthato(szamok):
     atlag = osszeg / darab_szamok
     return atlag
 
-print(oszthato(haromjegyu_szamok))
+print(f"\nA 7-tel osztható és 3-mal nem osztható 3 jegyű számok átlaga: {oszthato(haromjegyu_szamok)}")
