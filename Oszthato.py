@@ -6,12 +6,25 @@ Minta:
 A 7-tel osztható és 3-mal nem osztható 3 jegyű számok átlaga: 551.2705882352941"""
 
 
+haromjegyu = []
 
 def oszthatosag(szam):
     if szam % 7 == 0 and szam % 3 != 0:
+        haromjegyu.append(szam)
         return True
     else:
         return False
 
-
 print(oszthatosag(7))
+
+def atlag(szamok):
+    # osszeg = 0
+    # for szam in szamok:
+    #     osszeg += szam
+    #    osszeg = osszeg + szam
+    osszeg = sum(szamok)
+    print(osszeg)
+    hany_darab_szam = len(szamok)
+    print(hany_darab_szam)
+
+atlag(haromjegyu)
